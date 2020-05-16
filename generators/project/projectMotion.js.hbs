@@ -1,0 +1,22 @@
+import React from 'react'
+import Sketch from '../../components/Sketch'
+import Colors from '../../utlis/Colors'
+import { SETTINGS } from './settings'
+
+const {{ properCase name }} = () => {
+  let colors
+
+  const setup = (p, canvasParentRef) => {
+    const { WIDTH, HEIGHT, COLORS, PIXEL_DENSITY } = SETTINGS
+    p.pixelDensity(PIXEL_DENSITY)
+    colors = new Colors(p, COLORS, '\n', 1)
+    p.createCanvas(WIDTH, HEIGHT).parent(canvasParentRef)
+    p.background(255)
+  }
+
+  const draw = p => {}
+
+  return <Sketch setup={setup} draw={draw} />
+}
+
+export default {{ properCase name }}
