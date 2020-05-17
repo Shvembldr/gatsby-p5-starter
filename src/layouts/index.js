@@ -1,11 +1,8 @@
 import React from 'react'
+import styles from './layout.module.css'
 
 const Layout = ({ children }) => (
-  <div
-    style={{ display: 'flex', flexDirection: 'row', justifyContent: 'center' }}
-  >
-    {children}
-  </div>
+  <div className={styles.mainContainer}>{children}</div>
 )
 
 export default Layout

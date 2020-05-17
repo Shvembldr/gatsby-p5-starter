@@ -17,7 +17,6 @@ const Frwrd = () => {
     p = p5
     ctx = p.drawingContext
     p.angleMode(p.DEGREES)
-    p.rectMode(p.CENTER)
     p.pixelDensity(PIXEL_DENSITY)
 
     colors = new Colors(p, COLORS, '\n', 1)

@@ -1,8 +1,9 @@
 import React from 'react'
 import { Link } from 'gatsby'
+import styles from './index.module.css'
 
 const IndexPage = () => (
-  <div style={{ display: 'flex', flexDirection: 'column' }}>
+  <div className={styles.container}>
     <Link to="/start">Start</Link>
     <Link to="/frwrd">FRWRD</Link>
     <Link to="/reciprocality">Reciprocality</Link>

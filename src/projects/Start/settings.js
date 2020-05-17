@@ -1,8 +1,12 @@
 export const SETTINGS = {
   WIDTH: 800,
   HEIGHT: 800,
-  COLORS: `#000000
-#ffffff`,
+  COLORS: `#EBDDD8
+#7DB3A8
+#3D829C
+#55A6B5
+#76C1C8
+#A8D0DC`,
   PIXEL_DENSITY: 2,
   FILE_FORMAT: 'png',
 }
